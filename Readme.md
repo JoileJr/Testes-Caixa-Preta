@@ -22,20 +22,31 @@ a. Casos de Teste Projetados e Resultados Obtidos
 Caso 1 - Cashback até R$ 100 com Faixa Bronze:
 
 Entrada: valorTotal = 100, grauFidelidade = "Bronze"
+
 Resultado Esperado: 5% de cashback
+
 Resultado Obtido: 10% de cashback
+
 Status: Falhou
+
 Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Bronze:
 
 Entrada: valorTotal = 200, grauFidelidade = "Bronze"
+
 Resultado Esperado: 10% de cashback
+
 Resultado Obtido: 10% de cashback
+
 Status: Passou
+
 Caso 3 - Cashback acima de R$ 500 com Faixa Bronze:
 
 Entrada: valorTotal = 1000, grauFidelidade = "Bronze"
+
 Resultado Esperado: 15% de cashback
+
 Resultado Obtido: 15% de cashback
+
 Status: Passou
 
 ### FAIXA PRATA
@@ -43,20 +54,31 @@ Status: Passou
 Caso 1 - Cashback até R$ 100 com Faixa Prata:
 
 Entrada: valorTotal = 100, grauFidelidade = "Prata"
+
 Resultado Esperado: 10% de cashback
+
 Resultado Obtido: 15% de cashback
+
 Status: Falhou
+
 Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Prata:
 
 Entrada: valorTotal = 200, grauFidelidade = "Prata"
+
 Resultado Esperado: 15% de cashback
+
 Resultado Obtido: 15% de cashback
+
 Status: Passou
+
 Caso 3 - Cashback acima de R$ 500 com Faixa Prata:
 
 Entrada: valorTotal = 1000, grauFidelidade = "Prata"
+
 Resultado Esperado: 20% de cashback
+
 Resultado Obtido: 20% de cashback
+
 Status: Passou
 
 ### FAIXA OURO
@@ -64,22 +86,31 @@ Status: Passou
 Caso 1 - Cashback até R$ 100 com Faixa Ouro:
 
 Entrada: valorTotal = 100, grauFidelidade = "Ouro"
+
 Resultado Esperado: 15% de cashback
+
 Resultado Obtido: 20% de cashback
+
 Status: Falhou
 
 Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Ouro:
 
 Entrada: valorTotal = 200, grauFidelidade = "Ouro"
+
 Resultado Esperado: 20% de cashback
+
 Resultado Obtido: 20% de cashback
+
 Status: Passou
 
 Caso 3 - Cashback acima de R$ 500 com Faixa Ouro:
 
 Entrada: valorTotal = 1000, grauFidelidade = "Ouro"
+
 Resultado Esperado: 25% de cashback
+
 Resultado Obtido: 25% de cashback
+
 Status: Passou
 
 b. Aplicação do Critério de Valor Limite
