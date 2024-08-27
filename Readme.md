@@ -115,7 +115,7 @@ Status: Passou
 
 b. Aplicação do Critério de Valor Limite
 
-Os testes foram projetados para cobrir os limites inferiores das faixas de cashback e os diferentes graus de fidelidade. Os valores testados foram escolhidos para verificar se o sistema calcula corretamente o cashback para valores exatamente nas bordas das faixas.
+Os testes foram projetados para cobrir os limites inferiores das faixas de cashback e os diferentes graus de fidelidade. Os valores testados foram escolhidos para verificar se o sistema calcula corretamente o cashback para valores nas faixas de cashback.
 
 ## 3. Execução dos Testes
 a. Processo de Execução dos Testes
