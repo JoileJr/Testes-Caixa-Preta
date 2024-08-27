@@ -19,7 +19,7 @@ a. Casos de Teste Projetados e Resultados Obtidos
 
 ### FAIXA BRONZE
 
-Caso 1 - Cashback até R$ 100 com Faixa Bronze:
+#### Caso 1 - Cashback até R$ 100 com Faixa Bronze:
 
 Entrada: valorTotal = 100, grauFidelidade = "Bronze"
 
@@ -29,7 +29,7 @@ Resultado Obtido: 10% de cashback
 
 Status: Falhou
 
-Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Bronze:
+#### Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Bronze:
 
 Entrada: valorTotal = 200, grauFidelidade = "Bronze"
 
@@ -39,7 +39,7 @@ Resultado Obtido: 10% de cashback
 
 Status: Passou
 
-Caso 3 - Cashback acima de R$ 500 com Faixa Bronze:
+#### Caso 3 - Cashback acima de R$ 500 com Faixa Bronze:
 
 Entrada: valorTotal = 1000, grauFidelidade = "Bronze"
 
@@ -51,7 +51,7 @@ Status: Passou
 
 ### FAIXA PRATA
 
-Caso 1 - Cashback até R$ 100 com Faixa Prata:
+#### Caso 1 - Cashback até R$ 100 com Faixa Prata:
 
 Entrada: valorTotal = 100, grauFidelidade = "Prata"
 
@@ -61,7 +61,7 @@ Resultado Obtido: 15% de cashback
 
 Status: Falhou
 
-Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Prata:
+#### Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Prata:
 
 Entrada: valorTotal = 200, grauFidelidade = "Prata"
 
@@ -71,7 +71,7 @@ Resultado Obtido: 15% de cashback
 
 Status: Passou
 
-Caso 3 - Cashback acima de R$ 500 com Faixa Prata:
+#### Caso 3 - Cashback acima de R$ 500 com Faixa Prata:
 
 Entrada: valorTotal = 1000, grauFidelidade = "Prata"
 
@@ -83,7 +83,7 @@ Status: Passou
 
 ### FAIXA OURO
 
-Caso 1 - Cashback até R$ 100 com Faixa Ouro:
+#### Caso 1 - Cashback até R$ 100 com Faixa Ouro:
 
 Entrada: valorTotal = 100, grauFidelidade = "Ouro"
 
@@ -93,7 +93,7 @@ Resultado Obtido: 20% de cashback
 
 Status: Falhou
 
-Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Ouro:
+#### Caso 2 - Cashback de R$ 100,01 a R$ 500 com Faixa Ouro:
 
 Entrada: valorTotal = 200, grauFidelidade = "Ouro"
 
@@ -103,7 +103,7 @@ Resultado Obtido: 20% de cashback
 
 Status: Passou
 
-Caso 3 - Cashback acima de R$ 500 com Faixa Ouro:
+#### Caso 3 - Cashback acima de R$ 500 com Faixa Ouro:
 
 Entrada: valorTotal = 1000, grauFidelidade = "Ouro"
 
